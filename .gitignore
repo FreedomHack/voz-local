@@ -16,3 +16,5 @@ rerun.txt
 pickle-email-*.html
 *.sublime-project
 *.sublime-workspace
+*.c9save
+.c9revisions
