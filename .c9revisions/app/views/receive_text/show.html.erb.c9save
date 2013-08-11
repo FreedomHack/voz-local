@@ -1,0 +1,3 @@
+{"ts":1376230014692,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"<% provide(@message) %>\n<h3>Messages</h3>\n<div class=\"row\">\n        <%= @message %>\n  </div>\n"]],"start1":0,"start2":0,"length1":0,"length2":93}]],"length":93}
+{"contributors":[],"silentsave":false,"ts":1376230034028,"patch":[[{"diffs":[[0,"    "],[-1,"<%= @"],[1,":"],[0,"message"],[-1," %>"],[1,"_body"],[0,"\n  <"]],"start1":64,"start2":64,"length1":23,"length2":21}]],"length":91,"saved":false}
+{"ts":1376230093545,"patch":[[{"diffs":[[0,"\n       "],[1,"<%="],[0," :messag"]],"start1":59,"start2":59,"length1":16,"length2":19},{"diffs":[[0,"age_body"],[1," %>"],[0,"\n  </div"]],"start1":76,"start2":76,"length1":16,"length2":19}]],"length":97,"saved":false}

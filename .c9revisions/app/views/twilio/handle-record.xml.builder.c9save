@@ -1,0 +1,7 @@
+{"ts":1376232302460,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1376232375462,"patch":[[{"diffs":[[1,"xml.instruct!\nxml.Response do\n    xml.Say \"Welcome to Voz Local.\"\n    xml.Record :maxLength => \"30\", :action => /handle-record', :method => 'get'\n    xml.Say \"Press any other key to start over.\"\n  end\nend"]],"start1":0,"start2":0,"length1":0,"length2":204}]],"length":204,"saved":false}
+{"ts":1376232380194,"patch":[[{"diffs":[[0,"=> /"],[-1,"handle-"],[0,"record"],[1,"ing"],[0,"', :"]],"start1":109,"start2":109,"length1":21,"length2":17}]],"length":200,"saved":false}
+{"ts":1376232424976,"patch":[[{"diffs":[[0,"cord"],[-1,"ing"],[0,"', :"]],"start1":115,"start2":115,"length1":11,"length2":8}]],"length":197,"saved":false}
+{"ts":1376232487791,"patch":[[{"diffs":[[0,"ay \""],[-1,"Welcome to Voz Local"],[1,"Record your message"],[0,".\"\n "]],"start1":39,"start2":39,"length1":28,"length2":27}]],"length":196,"saved":false}
+{"ts":1376232494688,"patch":[[{"diffs":[[0,"tion => "],[1,"'"],[0,"/record'"]],"start1":103,"start2":103,"length1":16,"length2":17}]],"length":197,"saved":false}
+{"ts":1376232504605,"patch":[[{"diffs":[[0," => "],[-1,"'"],[1,"\""],[0,"/record"],[-1,"'"],[1,"\""],[0,", :m"]],"start1":107,"start2":107,"length1":17,"length2":17},{"diffs":[[0," => "],[-1,"'get'"],[1,"\"get\""],[0,"\n   "]],"start1":129,"start2":129,"length1":13,"length2":13}]],"length":197,"saved":false}

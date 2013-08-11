@@ -1,0 +1,2 @@
+{"ts":1376231362115,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1376231736535,"patch":[[{"diffs":[[1,"xml.instruct!\nxml.Response do\n    xml.Say \"Welcome to Voz Local.\"\n    xml.Record :maxLength => \"30\", :action => /hello-monkey/handle-record', :method => 'get'\n    xml.Say 'Press any other key to start over.'\n  end\nend"]],"start1":0,"start2":0,"length1":0,"length2":217}]],"length":217,"saved":false}
