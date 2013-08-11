@@ -1,0 +1,1 @@
+{"ts":1376229983390,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"class VoiceMessage::ActiveRecord::Base\n    \n    attr_accessible :length\n    \n\nend"]],"start1":0,"start2":0,"length1":0,"length2":81}]],"length":81}

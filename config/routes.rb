@@ -10,7 +10,10 @@ Vozlocale::Application.routes.draw do
     get 'receive_text/show', to: 'receive_text#show'
     
     match 'twilio/process_sms' => 'twilio#process_sms'
-
+    match 'twilio/incoming' => 'twilio#incoming'
+    match 'twilio/goodbye' => 'twilio#goodbye'
+    match 'twilio/record' => 'twilio#record'
+    match 'twilio/handle-record' => 'twilio#handle-record'
     
     resources :users
     resources :messages

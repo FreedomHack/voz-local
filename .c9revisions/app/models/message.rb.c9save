@@ -1,0 +1,1 @@
+{"ts":1376229989505,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"class Message < ActiveRecord::Base\n  attr_accessible :from_number, :message_body\nend\n"]],"start1":0,"start2":0,"length1":0,"length2":85}]],"length":85}

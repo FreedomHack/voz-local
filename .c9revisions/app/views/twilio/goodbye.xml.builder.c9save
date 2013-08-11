@@ -1,0 +1,4 @@
+{"ts":1376231888533,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1376231890802,"patch":[[{"diffs":[[1,"xml.instruct!\nxml.Response do\n  xml.Say \"#{@goodbye_message}\"\n  xml.Say \"Good-bye.\"\n  xml.Hangup\nend"]],"start1":0,"start2":0,"length1":0,"length2":100}]],"length":100,"saved":false}
+{"ts":1376233875338,"patch":[[{"diffs":[[0," do\n"],[-1,"  xml.Say \"#{@goodbye_message}\"\n"],[0,"  xm"]],"start1":26,"start2":26,"length1":40,"length2":8}]],"length":68,"saved":false}
+{"ts":1376234198720,"patch":[[{"diffs":[[0,"onse do\n"],[1,"  xml.Say \"#{@goodbye_message}\"\n"],[0,"  xml.Sa"]],"start1":22,"start2":22,"length1":16,"length2":48}]],"length":100,"saved":false}
