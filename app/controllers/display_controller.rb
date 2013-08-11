@@ -7,6 +7,10 @@ class DisplayController < ApplicationController
 
   # The dashboard is the place to hang out after logging in
   def dashboard
+      
+      # Get the last 10 messages from the db
+      @messages = Message.find(:all, :order => 'id desc', :limit => 5).reverse
+      
 
   end
 

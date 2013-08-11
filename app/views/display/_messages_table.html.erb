@@ -1,0 +1,24 @@
+<h3>Most Recent Messages</h3>
+
+<style type="text/css">
+    i.remove-link {
+        color: red;
+    }
+</style>
+
+<table class="table">
+    <tr>
+        <th>Date</th>
+        <th>Type</th>
+        <th>Message</th>
+        <th>Remove</th>
+    </tr>
+    <% @messages.each do |m| %>
+    <tr>
+        <td><%= m.created_at %></td>
+        <td>Voice</td>
+        <td><a href="#">MP3</a></td>
+        <td><a href="#"><i class="icon-remove remove-link"></i></a></td>
+    </tr>
+    <% end %>
+</table>
