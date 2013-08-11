@@ -10,7 +10,6 @@ class DisplayController < ApplicationController
       
       # Get the last 10 messages from the db
       @messages = Message.find(:all, :order => 'id desc', :limit => 5).reverse
-      
 
   end
 
