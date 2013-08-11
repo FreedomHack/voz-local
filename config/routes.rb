@@ -2,7 +2,7 @@ Vozlocale::Application.routes.draw do
     
     root :to => "display#index"
     
-    resources :user
+    resources :users
     resources :messages
     
     get 'receive_text/show', to: 'receive_text#show'

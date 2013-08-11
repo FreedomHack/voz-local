@@ -11,13 +11,21 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130810231323) do
+ActiveRecord::Schema.define(:version => 20130811013419) do
 
   create_table "messages", :force => true do |t|
     t.string   "message_body"
     t.string   "from_number"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
+  end
+
+  create_table "users", :force => true do |t|
+    t.string "email"
+    t.string "first_name"
+    t.string "last_name"
+    t.string "password_hash"
+    t.string "password_salt"
   end
 
 end
