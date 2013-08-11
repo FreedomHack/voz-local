@@ -16,8 +16,9 @@
     <% @messages.each do |m| %>
     <tr>
         <td><%= m.created_at %></td>
-        <td>Voice</td>
-        <td><a href="#">MP3</a></td>
+        <td>SMS</td>
+        <td><a href="#"><%= m.message_body %></a></td>
+         <td><a href="#"><%= m.from_number %></a></td>
         <td><a href="#"><i class="icon-remove remove-link"></i></a></td>
     </tr>
     <% end %>
