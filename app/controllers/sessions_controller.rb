@@ -6,7 +6,7 @@ class SessionsController < ApplicationController
 
 		if user
 			session[:user_id] = user.id
-			redirect_to root_url, :notice => 'Logged in!'
+			redirect_to dashboard_path
 		else
 			flash.now[:alert] = 'Could not log you in.  Please check your username and/or password.'
 			redirect_to root_url
