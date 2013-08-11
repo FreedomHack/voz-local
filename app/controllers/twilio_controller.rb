@@ -4,6 +4,11 @@ BASE_URL = "http://voz-local.britneywright.c9.io/twilio"
   def message 
     @message_body = params["Body"]
     @from_number = params["From"]
+    
+    m = Message.new
+    m.message_body = @message_body
+    m.from_number = @from_number
+    m.save
 
     render 'process_sms.xml.erb', :content_type => 'text/xml'
   end
