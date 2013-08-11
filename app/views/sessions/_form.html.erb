@@ -1,0 +1,11 @@
+<% if session[:user_id] != nil %>
+	<form class="navbar-form pull-right" action="/log_out" method="GET">
+		<button type="submit" class="btn">Logout</button>
+	</form>
+<% else %>
+<form class="navbar-form pull-right" action="/sessions" method="POST">
+    <input class="span2" type="text" name="email" placeholder="Email">
+    <input class="span2" type="password" name="password" placeholder="Password">
+	<button type="submit" class="btn">Sign in</button>
+</form>
+<% end %>

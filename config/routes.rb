@@ -1,13 +1,22 @@
 Vozlocale::Application.routes.draw do
     
     root :to => "display#index"
-    
-    resources :users
-    resources :messages
-    
+    get 'dashboard' => 'display#dashboard', :as => 'dashboard'
+    get 'log_in' => 'sessions#new', :as => 'log_in'
+    get 'log_out' => 'sessions#destroy', :as => 'log_out'
+    get 'sign_up' => 'users#new', :as => 'sign_up'
+
+
     get 'receive_text/show', to: 'receive_text#show'
     
     match 'twilio/process_sms' => 'twilio#process_sms'
+
+    
+    resources :users
+    resources :messages
+    resources :sessions
+    
+    
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
